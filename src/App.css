@@ -1,0 +1,77 @@
+ 
+
+body{
+    font-family: "Chakra Petch",Arial;
+    height: 100%;
+    overflow-y: scroll;  
+    overflow-x: hidden; 
+}
+.wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .accordion .item {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    background-color: #F7DCB9;
+  }
+  
+  .title {
+    background-color: #B5C18E;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+  }
+  h2{
+     flex: 1;
+  }
+  .more{
+    font-size: 1.5rem; 
+    margin-left: 10px;  
+ 
+  }
+ 
+  .content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease;
+    padding: 0 10px;
+    line-height: 25px;
+     
+    overflow-y: scroll;  
+    overflow-x: hidden;  
+  }
+
+  .content.open {
+    max-height: 200px;  
+    padding: 20px;
+    overflow-y: scroll;
+    line-height: 25px;
+    transition:   0.3s ease;
+
+  }
+     
+
+  ::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height of the scrollbar */
+  }
+  
+  /* The track (progress bar) of the scrollbar */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the track */
+   }
+  
+  /* The draggable part of the scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background: #B5C18E; /* Color of the thumb */
+   }
+  
+  /* The thumb when hovered */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #98a371; /* Darker color when hovered */
+  }
+  
