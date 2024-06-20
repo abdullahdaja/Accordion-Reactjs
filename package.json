@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://abdullahdaja.github.io/Reactjs-Accordion",
+  "homepage": "https://abdullahdaja.github.io/Accordion-Reactjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
